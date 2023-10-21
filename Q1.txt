@@ -1,0 +1,32 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2
+
+Answer:
+HTTP-Hypertext transfer protocol,It is used to communicate information in between request and respose through servers.
+
+ Difference between HTTP/1.1 vs HTTP2:
+
+HTTP/1.1:
+ -It works on textual format
+
+ -HTTP1.1 load request one after another,so if any request cannot be loaded,it block other requests.
+
+ -HTTP 1.1 requires it by the specification. The host header is specially important to route messages through proxy servers, allowing to
+  distinguish domains that point to the same IP
+
+ -In HTTP1.1 there is an open connection between the server & client and persistent connection which means several 
+  requests & responses are merged in a single connection
+
+HTTP/2:
+ -It works on the binary protocol
+
+ -In HTTP 2 it use single TCP(Transmission control protocol) connection to send multiple streams of data at once so that 
+  no one request blocks any other request.
+
+ -To speed up the web performance both HTTP/1.1 and HTTP/2 comperss messages to make them smaller.
+ However,HTTP/2 use more advanced method called HPACK
+
+ -To avoid a server receiving lots of requests, HTTP 2.0 introduced a server push functionality.
+  With that, the server tries to predict the resources that will be requested soon. So, the server proactively pushes these
+  resources to the client cach.
+  
+ -HTTP/2 offers a feature called weighted prioritization. This allows developers to decide which page resources will load first, every time.

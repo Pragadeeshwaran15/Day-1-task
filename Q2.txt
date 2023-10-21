@@ -1,0 +1,35 @@
+Write a blog about objects and its internal representation in Javascript
+
+Objects:
+   
+    Objects,it is the most import  Datatype in javascript and it also play main role in modern JavaScript.
+These objects are different from JavaScript’s primary data-types like Number, String, Boolean,null,
+undefined and symbol.These primary data-types all store a single value each (depending on their types).
+Objects are complex because of every object contain any combination of primary Datatype.In other words
+Objects is reference of Datatypes.Objects can hold many values in form of Key: value pair.These key can
+be variables or functions.
+
+Objects and properties:
+
+    ->Every object has some property associated with some value
+    ->These values can be accessed using these properties associated with them.
+        {For example;
+                Let us creat object name 'Student' and property name 'Age', 'Class'and 'Grade'
+                      var Student=new object();
+                      Student.Age=14;
+                      Student.Class="8th standard";
+                      Student.Grade="O";}
+    ->we can access the value by using this syntax [Objectname.propertyname]
+            #student.age => (output=14)
+    ->Unassigned properties of an object are undefined or null
+    ->properties of javascript object can also be set by brackets"[]"
+    ->creating an ojbect by literal simply define the property and values inside curly braces.
+      example;
+            # var person={name:"Hari",age=25,height="172 cm"}
+
+Objects methods:
+      ->Create JavaScript Object with Object Literal
+      ->Create JavaScript Object with Constructor
+      ->By using the JavaScript Keyword new
+      ->By using the Object.create method
+
